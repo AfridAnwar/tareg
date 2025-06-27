@@ -46,7 +46,7 @@
 	--primary-color			: #1E1E1E;
 	--secondary-color		: #F8F8F8;
 	--text-color			: #707070;
-	--accent-color			: #FFB703;
+	--accent-color			: #00A050;
 	--white-color			: #FFFFFF;
 	--divider-color			: #E3E3E3;
 	--dark-divider-color	: #FFFFFF26;
@@ -322,9 +322,9 @@ body{
 
 .loading-container,
 .loading{
-	height: 100px;
+	height: 150px;
 	position: relative;
-	width: 100px;
+	width: 150px;
 	border-radius: 100%;
 }
 
@@ -347,8 +347,9 @@ body{
 #loading-icon{
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	max-width: 66px;
+	left: 65%;
+	max-width: 150px;
+	width: 100%;
 	transform: translate(-50%, -50%);
 }
 
@@ -5592,4 +5593,7 @@ header.main-header .header-sticky.active{
 	.error-page-content-heading h2{
         font-size: 24px;
 	}
+}
+.navbar-brand{
+	width: 150px ;
 }
