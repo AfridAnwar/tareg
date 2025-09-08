@@ -344,13 +344,14 @@ body{
 	transition: all 0.5s ease-in-out;
 }
 
-#loading-icon{
+#loading-icon {
 	position: absolute;
-	top: 50%;
-	left: 65%;
+	top: 54%;
+	left: 75%;
 	max-width: 150px;
 	width: 100%;
 	transform: translate(-50%, -50%);
+	scale: 1.5;
 }
 
 @keyframes rotate-loading{
@@ -778,7 +779,7 @@ header.main-header .header-sticky.active{
 	overflow: hidden;
 	min-height: 100vh;
 	padding: 230px 0 315px;
-	margin-top: -99px;
+	margin-top: -109px;
 }
 
 .hero::before{
